@@ -1,0 +1,11 @@
+s6 :: Contract
+s6 = one()
+h6 :: Contract
+h6 = and(s6,s6)
+d6 :: Contract
+d6 = give(h6)
+END
+3 9
+h6
+s6
+d6
